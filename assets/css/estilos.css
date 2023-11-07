@@ -1,0 +1,91 @@
+/* Estilo para la barra de navegación en la parte superior */
+.navbar-custom {
+    background-color: #007bff;
+    background-image: url('https://i4.visitchile.com/img/GalleryContent/8906/chacao.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir el fondo */
+    background-position: center; /* Alinea la imagen en el centro */
+    box-shadow: 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding: 10px 0;
+    font-family: "Book Antiqua", serif;
+}
+
+.navbar-custom .navbar-toggler-icon {
+    color: #fff;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px; /* Espacio entre enlaces */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s;
+}
+
+.navbar-custom .navbar-nav .nav-link:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el mouse */
+}
+
+.navbar-custom .btn-outline-success {
+    background-color: #28a745;
+    color: #fff;
+    font-weight: bolder;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.navbar-custom .btn-outline-success:hover {
+    background-color: #218838;
+}
+
+/* Estilo para el carrusel */
+.carousel-inner {
+    text-align: center;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    text-align: left;
+    padding: 10px;
+}
+
+.carousel-item img {
+    max-height: 400px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #007bff;
+    background-image: url('https://i4.visitchile.com/img/GalleryContent/8906/chacao.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir el fondo */
+    background-position: initial;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Estilo para los iconos de redes sociales en el pie de página */
+.navbar-custom .navbar-nav a img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin: 0 10px;
+}
+
+
+/* Estilo para los iconos de redes sociales en el pie de página */
+.navbar-custom .navbar-nav a img {
+    width: 20px; /* Tamaño de los iconos */
+    height: 20px; /* Tamaño de los iconos */
+    vertical-align: middle; /* Alineación vertical de los iconos */
+}
+/* Estilo para los iconos de redes sociales */
+.icon {
+    width: 40px; /* Ajusta el ancho de los iconos a tu preferencia */
+    height: 40px; /* Ajusta la altura de los iconos a tu preferencia */
+    vertical-align: middle; /* Alinea verticalmente los iconos con el texto */
+}
