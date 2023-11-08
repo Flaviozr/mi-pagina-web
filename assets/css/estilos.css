@@ -1,28 +1,40 @@
-/* Estilo para la barra de navegación en la parte superior */
-.navbar-custom {
-    background-color: #007bff;
-    background-image: url('https://i4.visitchile.com/img/GalleryContent/8906/chacao.jpg'); /* Ruta de la imagen de fondo */
-    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir el fondo */
-    background-position: center; /* Alinea la imagen en el centro */
-    box-shadow: 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
-    padding: 10px 0;
-    font-family: "Book Antiqua", serif;
+/* Estilos generales */
+body {
+    font-family: "La Rapidita", sans-serif;
+    color: black;
 }
 
-.navbar-custom .navbar-toggler-icon {
-    color: #fff;
+/* Estilo para la barra de navegación */
+.navbar-custom {
+    background-color: transparent;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/026/087/667/non_2x/beautiful-landscape-snowy-background-snowdrifts-snowfall-clear-blue-sky-blizzard-cartoon-wallpaper-winter-season-forest-trees-and-mountains-design-for-website-poster-banner-vector.jpg');
+    background-size: cover;
+    background-position: center;
+    box-shadow: 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+    font-family: 'monospace', serif;
+}
+.icon1 {
+    width: 40px; /* Tamaño de ícono personalizado */
+    height: auto; /* Altura automática para mantener la proporción */
+    vertical-align: middle;
+}
+
+.navbar-toggler-icon {
+    color: black;
 }
 
 .navbar-custom .navbar-nav .nav-link {
-    color: #fff;
+    color: #1a1d20;
     font-weight: bold;
-    padding: 10px 20px; /* Espacio entre enlaces */
-    border-radius: 5px; /* Bordes redondeados */
-    transition: background-color 0.3s;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .navbar-custom .navbar-nav .nav-link:hover {
-    background-color: #0056b3; /* Color de fondo al pasar el mouse */
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .navbar-custom .btn-outline-success {
@@ -33,42 +45,81 @@
     padding: 10px 20px;
     border-radius: 5px;
     transition: background-color 0.3s;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .navbar-custom .btn-outline-success:hover {
     background-color: #218838;
 }
 
-/* Estilo para el carrusel */
+/* Estilos de la sección personalizada */
+.custom-section {
+    padding: 40px 0;
+    background-color: steelblue;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+h3{
+    color: black;
+}
+.custom-section h4 {
+    color: #fff3cd;
+}
+
+.custom-section p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.custom-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos del carrusel */
 .carousel-inner {
     text-align: center;
 }
 
 .carousel-caption {
     background-color: rgba(0, 0, 0, 0.7);
-    color: #fff;
+    color: white;
     text-align: left;
     padding: 10px;
 }
 
 .carousel-item img {
-    max-height: 400px;
+    max-height: 100%;
+    max-width: 100%;
     margin: 0 auto;
     display: block;
 }
 
-/* Estilo para el pie de página */
+/* Estilos personalizados para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .carousel-caption {
+        background-color: rgba(0, 0, 0, 0.7);
+        color: white;
+        text-align: left;
+        padding: 10px;
+    }
+
+    .carousel-caption h3 {
+        font-size: 18px;
+    }
+}
+
+/* Estilos del pie de página */
 footer {
     background-color: #007bff;
-    background-image: url('https://i4.visitchile.com/img/GalleryContent/8906/chacao.jpg'); /* Ruta de la imagen de fondo */
-    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir el fondo */
+    background-image: url('https://i4.visitchile.com/img/GalleryContent/8906/chacao.jpg');
+    background-size: cover;
     background-position: initial;
     color: #fff;
     text-align: center;
     padding: 20px 0;
 }
 
-/* Estilo para los iconos de redes sociales en el pie de página */
+/* Estilos de los iconos de redes sociales en el pie de página */
 .navbar-custom .navbar-nav a img {
     width: 20px;
     height: 20px;
@@ -76,16 +127,10 @@ footer {
     margin: 0 10px;
 }
 
-
-/* Estilo para los iconos de redes sociales en el pie de página */
-.navbar-custom .navbar-nav a img {
-    width: 20px; /* Tamaño de los iconos */
-    height: 20px; /* Tamaño de los iconos */
-    vertical-align: middle; /* Alineación vertical de los iconos */
-}
-/* Estilo para los iconos de redes sociales */
+/* Estilos personalizados para los iconos de redes sociales */
 .icon {
-    width: 40px; /* Ajusta el ancho de los iconos a tu preferencia */
-    height: 40px; /* Ajusta la altura de los iconos a tu preferencia */
-    vertical-align: middle; /* Alinea verticalmente los iconos con el texto */
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+}
 }

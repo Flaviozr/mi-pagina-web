@@ -1,0 +1,31 @@
+.carousel-container {
+    text-align: center;
+    background-color: skyblue; /* Cambié el fondo a un color más claro */
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 900px; /* Limité el ancho del carrusel */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Agregué una sombra */
+}
+
+.carousel-item {
+    text-align: center;
+    padding: 30px;
+}
+
+.carousel-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Añadí un borde redondeado a las imágenes */
+}
+
+.carousel-item h5 {
+    font-size: 24px;
+    margin-top: 15px;
+    color: #007bff;
+}
+
+.carousel-item p {
+    font-size: 16px;
+    margin-top: 10px;
+}

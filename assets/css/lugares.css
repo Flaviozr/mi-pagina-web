@@ -1,0 +1,78 @@
+/* Estilos generales */
+body {
+    color: cornflowerblue;
+    font-family: "Modern No. 20", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: cornflowerblue; /* Color de fondo para el cuerpo de la página */
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: #007bff; /* Cambia este valor al color deseado, aquí es azul brillante */
+    color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+.nav-link {
+    color: #fff;
+    font-weight: bold;
+}
+
+.navbar-toggler-icon {
+    color: #fff;
+}
+
+/* Estilos para el carrusel */
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh; /* Ajusta la altura del carrusel según tus necesidades */
+}
+
+.carousel-item {
+    text-align: center;
+    padding: 30px;
+}
+
+.carousel-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.carousel-item h5 {
+    font-size: 24px;
+    margin-top: 15px;
+    color: steelblue; /* Color del título */
+}
+
+.carousel-item p {
+    font-size: 16px;
+    margin-top: 10px;
+    color: black;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #007bff; /* Cambia este valor al color deseado, aquí es azul brillante */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Estilos para los íconos de redes sociales en el footer */
+.footer-icons {
+    margin-top: 20px;
+}
+
+.footer-icons a {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #fff;
+}
